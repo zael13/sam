@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sam"
+	  fetch="ssh://mirror@ec2-34-244-73-76.eu-west-1.compute.amazonaws.com/sam" />
+  <remote  name="aosp"
+          fetch="https://github.com/zael13" />
+  <default revision="master"
+           remote="sam"
+           sync-j="4" />
+
+  <project path="hello" name="hello" groups="pdk" />
+</manifest>
