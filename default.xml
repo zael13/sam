@@ -6,7 +6,7 @@
   <remote  name="aosp"
           fetch="https://github.com/zael13" />
   <default revision="master"
-           remote="sam"
+           remote="aosp"
            sync-j="4" />
 
   <project path="hello" name="hello" groups="pdk" />
